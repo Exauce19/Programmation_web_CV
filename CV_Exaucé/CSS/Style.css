@@ -1,0 +1,61 @@
+body{
+    font-family: Georgia, Verdana, 'Times New Roman', Times, serif;
+    font-size: normal;
+    background-color: #616060;
+}
+
+h2{
+    color: chocolate/*#3EEC3E*/;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+ul li{
+    list-style-type:square ;
+}
+
+.contenu{
+    width: 700px;
+    margin: auto;
+    background-color: #fff;
+    min-height: 600px;
+    box-shadow:  0px 0px 10px 0px #000/*#000000cc;*/
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #00f/*#729CE5*/;
+    color: #fff;
+}
+
+.photo{
+    width: 100px;
+}
+
+.fullName{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coorExperience, .etudes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+footer{
+    background-color: #00f/*#729CE5*/;
+    color: #fff;
+}
+
+.pied{
+    padding: 20px;
+    text-align: center;
+}
